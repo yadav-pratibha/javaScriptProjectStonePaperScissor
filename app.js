@@ -8,7 +8,6 @@ const userScorePara = document.querySelector("#user-score");
 const comptScorePara = document.querySelector("#compt-score");
 
 
-
 function genComptChoice() {
     const options = ["rock", "paper", "scissor"];
     const randIdx = Math.floor(Math.random() * 3);
